@@ -9,10 +9,10 @@ class Dices extends React.Component {
 
     handlePress() {
         console.log("Press")
+        this.props.navigation.navigate("ChoicesDices")
     }
 
     render() { 
-        console.log("go")
         return (
     	    <View style={styles.container} onStartShouldSetResponder={() => this.handlePress()} >
     	        <Text style={styles.text}>Dés</Text>
@@ -21,7 +21,7 @@ class Dices extends React.Component {
     }
 }
 
-export default Dices
+export default Dices;
 
 const styles = StyleSheet.create({
     container: {

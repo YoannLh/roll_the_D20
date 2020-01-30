@@ -2,9 +2,18 @@ import React from 'react'
 import { StyleSheet, View, Text } from 'react-native'
 
 class Maps extends React.Component {
+
+    constructor() {
+        super()
+    }
+
+    handlePress() {
+        console.log("Press")
+    }
+    
     render() { 
         return (
-            <View style={styles.container}>
+            <View style={styles.container} onStartShouldSetResponder={() => this.handlePress()} >
                 <Text style={styles.text}>Cartes</Text>
             </View>
         );
