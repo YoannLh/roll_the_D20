@@ -13,7 +13,7 @@ const AppStackNavigator = createStackNavigator({
 	},
 	Dés: {
 		screen: ChoicesDices
-	}
+	},
 })
 
 export default createAppContainer(AppStackNavigator);

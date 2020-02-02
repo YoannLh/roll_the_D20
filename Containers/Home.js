@@ -16,10 +16,14 @@ class Home extends React.Component {
 	render() {
 		return (
 			<View style={styles.container}>
-				<Dices />
-				<Sounds />
-				<Maps />
-				<Lights />
+				<View style={styles.halfContainer}>
+					<Dices />
+					<Sounds />
+				</View>
+				<View style={styles.halfContainer}>
+					<Maps />
+					<Lights />
+				</View>
 			</View>
 		)
 	}
@@ -31,5 +35,29 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         backgroundColor: 'black'
+    },
+    halfContainer: {
+    	flex: 1,
+    	flexDirection: 'row'
     }
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

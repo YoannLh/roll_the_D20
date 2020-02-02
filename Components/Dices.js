@@ -9,7 +9,7 @@ class Dices extends React.Component {
 
     handlePress() {
         console.log("Press")
-        this.props.navigation.navigate("ChoicesDices")
+       // this.props.navigation.navigate("ChoicesDices")
     }
 
     render() { 
@@ -25,6 +25,7 @@ export default Dices;
 
 const styles = StyleSheet.create({
     container: {
+        width: '50%',
     	borderStyle: 'solid',
         borderWidth: 1,
         borderColor: 'white',

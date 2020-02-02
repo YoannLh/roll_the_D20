@@ -24,6 +24,7 @@ export default Maps
 
 const styles = StyleSheet.create({
     container: {
+        width: '50%',
         borderStyle: 'solid',
         borderWidth: 1,
         borderColor: 'white',
