@@ -17,12 +17,12 @@ class Home extends React.Component {
 		return (
 			<View style={styles.container}>
 				<View style={styles.halfContainer}>
-					<Dices />
-					<Sounds />
+					<Dices navigation={this.props.navigation} />
+					<Sounds navigation={this.props.navigation} />
 				</View>
 				<View style={styles.halfContainer}>
-					<Maps />
-					<Lights />
+					<Maps navigation={this.props.navigation} />
+					<Lights navigation={this.props.navigation} />
 				</View>
 			</View>
 		)

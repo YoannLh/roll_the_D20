@@ -9,6 +9,7 @@ class Maps extends React.Component {
 
     handlePress() {
         console.log("Press")
+        this.props.navigation.navigate('Cartes')
     }
     
     render() { 

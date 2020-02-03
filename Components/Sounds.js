@@ -9,6 +9,7 @@ class Sounds extends React.Component {
 
     handlePress() {
         console.log("Press")
+        this.props.navigation.navigate('Sons')
     }
     
     render() { 

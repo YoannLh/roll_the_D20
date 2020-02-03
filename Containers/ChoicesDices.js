@@ -1,11 +1,11 @@
 import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
-import D4 from './Dices/D4'
-import D6 from './Dices/D6'
-import D10 from './Dices/D10'
-import D12 from './Dices/D12'
-import D20 from './Dices/D20'
-import D100 from './Dices/D100'
+import D4 from '../Components/Dices/D4'
+import D6 from '../Components/Dices/D6'
+import D10 from '../Components/Dices/D10'
+import D12 from '../Components/Dices/D12'
+import D20 from '../Components/Dices/D20'
+import D100 from '../Components/Dices/D100'
 
 class ChoicesDices extends React.Component {
 

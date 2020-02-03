@@ -1,7 +1,7 @@
 import React from 'react';
 import { View, StyleSheet } from 'react-native';
 import Navigation from './Navigation/Navigation';
-import ChoicesDices from './Components/ChoicesDices'
+import ChoicesDices from './Containers/ChoicesDices'
 
 class App extends React.Component {
 
@@ -12,7 +12,7 @@ class App extends React.Component {
     render() { 
         return (
             <View style={styles.container}>
-                <ChoicesDices /> 
+                <Navigation /> 
             </View>
         );
     }

@@ -3,13 +3,12 @@ import { StyleSheet, View, Text } from 'react-native'
 
 class Dices extends React.Component {
 
-    constructor() {
-        super()
+    constructor(props) {
+        super(props)
     }
 
     handlePress() {
-        console.log("Press")
-       // this.props.navigation.navigate("ChoicesDices")
+        this.props.navigation.navigate("Dés")
     }
 
     render() { 
